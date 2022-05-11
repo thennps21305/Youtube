@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo > img{
+    width: 130px;
+    height: 60px;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    border-bottom: 1px solid black;
+}
+
+
+
+.box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#div2 > .box > input#search{
+    width: 500px;
+    height: 43px;
+    background: white;
+    font-size: 10pt;
+    padding-left: 15px;
+}
+#div2 > .box > .icon_search{
+    background-color: white;
+    border: 1px solid;
+    padding: 8px;
+    font-size: 8pt
+}
+#div2 > .box > .mic{
+    background-color: rgb(240, 235, 235);
+    border-radius: 50%;
+    padding: 9px;
+    font-size: 8pt
+}
+
+
+
+.mg-4{
+    margin: 0 9px;
+}
