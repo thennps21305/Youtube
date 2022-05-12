@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header_layout {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.main_layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+.aside_layout {
+    width: 18%;
+    height: 90vh;
+    background-color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    overflow-y: scroll;
+    /* background-color: blue; */
+}
+.box_title {
+    height: 20px;
+    width: 80%;
+    background-color: red;
+    margin: 2rem 0;
+}
+.article_layout {
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    padding: 0 1rem;
+}
+.menu_category {
+    width: 100%;
+    position: sticky;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 1rem;
+}
+
+.menu_category > ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.menu_category > ul > li{
+    padding: 0.5rem 1rem;
+    list-style-type: none;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 1rem;
+    width: max-content;
+    display: block;
+    
+}
+
+
+
+.article-main_layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box_content {
+    height: 200px;
+    width: 24%;
+    background-color: white;
+    margin: 0.5rem 0;
+}
+
+
+
+
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(73, 73, 73);
+    outline: 1px solid slategrey;
+    border-radius: 50px;
+}
+
+.aside_layout::-webkit-scrollbar {
+    width: 7px;
+}
+
+.aside_layout::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.aside_layout::-webkit-scrollbar-thumb {
+    background-color: rgb(73, 73, 73);
+    outline: 1px solid slategrey;
+    border-radius: 50px;
+}
