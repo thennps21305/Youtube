@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .article-main_layout {
     background-color: aqua;
     display: flex;
@@ -6,13 +12,59 @@
     flex-wrap: wrap;
 }
 .box_content {
-    height: 290px;
+    height: 300px;
     width: 24%;
     background-color: yellow;
     margin: 0.5rem 0;
 }
 
-img{
+.video > img{
     width: 100%;
-    height: 70%;
+    height: 200px;
+}
+
+.trinhbay{
+    background-color: orange;
+    width: 100%;
+    height: 100px;
+}
+.avt{
+    background-color: black;
+    padding: 10px 10px;
+    height: 100px;
+    float: left;
+}
+.avt > img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+.avt > .conten {
+    background-color: blueviolet;
+    width: 80%;
+    padding: 20px 10px;
+
+}
+.conten{
+    font-size: 10px;
+    font-family: Roboto, Arial, sans-serif; 
+}
+
+p{
+    font-size: 12px;
+}
+.noidung{
+    background-color: pink;
+    width: 100%;
+    height: 60px;
+}
+.tenkenh{
+    background-color: indigo;
+    width: 100%;
+    height: 20px;
+}
+.luotxem{
+    background-color: bisque;
+    width: 100%;
+    height: 15px;
 }
