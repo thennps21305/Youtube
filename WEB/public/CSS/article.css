@@ -5,7 +5,6 @@
 }
 
 .article-main_layout {
-    background-color: aqua;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,22 +13,19 @@
 .box_content {
     height: 300px;
     width: 24%;
-    background-color: yellow;
     margin: 0.5rem 0;
 }
 
 .video > img{
     width: 100%;
-    height: 200px;
+    height: 170px;
 }
 
 .trinhbay{
-    background-color: orange;
     width: 100%;
     height: 100px;
 }
 .avt{
-    background-color: black;
     padding: 10px 10px;
     height: 100px;
     float: left;
@@ -40,7 +36,6 @@
     border-radius: 50%;
 }
 .avt > .conten {
-    background-color: blueviolet;
     width: 80%;
     padding: 20px 10px;
 
@@ -49,22 +44,23 @@
     font-size: 10px;
     font-family: Roboto, Arial, sans-serif; 
 }
-
+h2{
+    font-size: 14px;
+    font-family: Roboto, Arial, sans-serif;
+}
 p{
     font-size: 12px;
+    font-family: Roboto, Arial, sans-serif;
 }
 .noidung{
-    background-color: pink;
     width: 100%;
-    height: 60px;
+    height: 100%;
 }
 .tenkenh{
-    background-color: indigo;
     width: 100%;
-    height: 20px;
+    height: 30px;
 }
 .luotxem{
-    background-color: bisque;
     width: 100%;
-    height: 15px;
+    height: 100%;
 }

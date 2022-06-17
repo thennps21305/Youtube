@@ -13,9 +13,9 @@
 }
 .main_layout {
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
     width: 100%;
+    /* overflow: hidden; */
 }
 .aside_layout {
     width: 18%;
@@ -53,7 +53,9 @@
     right: 0;
     background-color: white;
     padding: 1rem;
+    /* overflow-y: scroll; */
 }
+
 
 .menu_category > ul{
     display: flex;
@@ -61,14 +63,15 @@
     align-items: center;
 }
 .menu_category > ul > li{
-    padding: 0.5rem 1rem;
     list-style-type: none;
     background-color: white;
     border: 1px solid black;
     border-radius: 1rem;
-    width: max-content;
     display: block;
-    
+    width: max-content;    
+    text-align: center;
+    padding: 3px 7px;
+    margin: 0px 2.5px;
 }
 
 
